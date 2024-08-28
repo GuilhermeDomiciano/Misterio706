@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    
+}
+
+.sidebar a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar a:hover{
+    background-color: #575757;
+}
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.btn {
+    background-color: #196191; /* Azul vibrante */
+    border: none; /* Sem bordas */
+    color: white; /* Texto branco */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Exibe como bloco inline */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margens ao redor */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efeito de elevação */
+    transition: background-color 0.3s, transform 0.2s; /* Transição suave */
+}
+
+/* Efeito ao passar o mouse */
+.btn:hover {
+    background-color: #2980b9; /* Azul mais escuro */
+    transform: scale(1.05); /* Aumenta o botão ligeiramente */
+}
+
+/* Efeito ao clicar */
+.btn:active {
+    background-color: #1c6ea4; /* Azul ainda mais escuro */
+    transform: scale(0.98); /* Reduz ligeiramente o botão */
+}
